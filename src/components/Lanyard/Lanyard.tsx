@@ -21,7 +21,7 @@ import { MeshLineGeometry, MeshLineMaterial } from "meshline";
 import * as THREE from "three";
 
 const cardGLB = "/assets/lanyard/card.glb";
-const lanyard = "/assets/lanyard/lanyard.png";
+const lanyard = "/assets/lanyard/lanyard-bumn.png";
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 

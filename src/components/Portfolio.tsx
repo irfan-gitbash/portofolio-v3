@@ -23,6 +23,13 @@ const Portfolio = () => {
       image: "https://i.postimg.cc/Hnsv6j8Y/Staycation.png",
       link: "#",
     },
+    {
+      title: "PT Cahaya Toner Online Shop ",
+      description:
+        "A full-featured online shopping PT Cahaya Toner platform built with Python Flask Jinja dan Boostrap",
+      image: "https://i.postimg.cc/h4kPPQ3z/Capture.png",
+      link: "#",
+    },
   ];
 
   return (

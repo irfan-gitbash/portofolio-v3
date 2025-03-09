@@ -1,44 +1,13 @@
-import React, { useState, useEffect } from "react";
-import { Github, Linkedin, Phone, Sun, Moon } from "lucide-react";
+import React from "react";
+import { Github, Linkedin, Phone } from "lucide-react";
 import LanyardSection from "./components/LanyardSection";
 import TechStack from "./components/TechStack";
 import Portfolio from "./components/Portfolio";
 import Certificates from "./components/Certificates";
 
 function App() {
-  const [isZoomed, setIsZoomed] = useState(false);
-  const [darkMode, setDarkMode] = useState(() => {
-    if (typeof window !== "undefined") {
-      return localStorage.getItem("darkMode") === "true";
-    }
-    return false;
-  });
-
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-    localStorage.setItem("darkMode", darkMode.toString());
-  }, [darkMode]);
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
   return (
     <div className="min-h-screen bg-gray-900 text-white">
-      <button
-        onClick={toggleDarkMode}
-        className="fixed top-4 right-4 p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200"
-        aria-label="Toggle dark mode"
-      >
-        {darkMode ? (
-          <Sun className="w-6 h-6 text-yellow-500" />
-        ) : (
-          <Moon className="w-6 h-6 text-gray-700" />
-        )}
-      </button>
       {/* Hero Section with Lanyard */}
       <LanyardSection />
 

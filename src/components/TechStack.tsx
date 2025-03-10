@@ -15,6 +15,11 @@ const TechStack = () => {
     { name: "Jira", icon: "🎯" },
     { name: "Git", icon: "🔑" },
     { name: "GitLab", icon: "🔑" },
+    { name: "Github", icon: "🐱" },
+    { name: "Figma", icon: "🎨" },
+    { name: "Mockoon", icon: "🔄" },
+    { name: "Postman", icon: "🚀" },
+    { name: "Ngrok", icon: "🔄" },
   ];
 
   return (

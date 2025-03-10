@@ -1,6 +1,15 @@
 import React from "react";
 import Lanyard from "./Lanyard/Lanyard";
+
 const LanyardSection = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/assets/CV ATS Muhammad Irfan Suherman Copy1.pdf"; // Pastikan path benar
+    link.download = "CV_Muhammad_Irfan_Suherman.pdf"; // Nama file yang diunduh
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className="relative h-screen flex items-center justify-center bg-grid-pattern">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900"></div>
@@ -31,13 +40,12 @@ const LanyardSection = () => {
           </p>
 
           <div className="flex gap-4">
-            <a
-              href="/public/assets/CV ATS Muhammad Irfan Suherman Copy1.pdf"
-              download
+            <button
+              onClick={handleDownload}
               className="bg-green-400 text-black px-8 py-3 rounded-lg font-bold hover:bg-green-300 transition-colors"
             >
               Download CV
-            </a>
+            </button>
           </div>
         </div>
         <div className="md:w-1/2 flex justify-center">

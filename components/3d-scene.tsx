@@ -2,7 +2,7 @@
 
 import React, { useRef, useEffect } from "react";
 import * as THREE from "three";
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 
 export default function Scene3D() {
   const mountRef = useRef<HTMLDivElement>(null);

@@ -421,7 +421,7 @@ export const skillsData: SkillCategory[] = [
       "Visual Studio Code",
       "XAMPP",
       "Laragon",
-      "LaravelHerd"
+      "LaravelHerd",
       "MPASS",
     ],
   },

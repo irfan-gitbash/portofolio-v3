@@ -420,6 +420,8 @@ export const skillsData: SkillCategory[] = [
       "Responsive Design",
       "Visual Studio Code",
       "XAMPP",
+      "Laragon",
+      "LaravelHerd"
       "MPASS",
     ],
   },

@@ -71,7 +71,7 @@ export const portfolioData: PortfolioItem[] = [
     role: "Full Stack Web Developer",
     duration: "Jan 2024 - Juni 2024",
     skills: ["Python", "Flask", "MongoDB", "Bootstrap", "RESTful API"],
-    imageUrl: "/Portofolio/Cahayatoner.png",
+    imageUrl: "/Portofolio/Cahayatoner.PNG", // Changed from .png to .PNG
     link: "#",
     width: 350,
     height: 183,
@@ -79,23 +79,22 @@ export const portfolioData: PortfolioItem[] = [
   {
     title: "CFEST Info Dashboard BNI Indonesia",
     description:
-      "Developed CFEST (Campus Financial Ecosystem for Students) digital platform for BNI Bank to support student financial inclusion and digital banking services. The application simplifies processes such as digital account opening, fund transfers, top-up, and online payments, specifically targeting students and academic staff at Universitas Indonesia and other partner campuses.",
+      "Developed CFEST (Campus Financial Ecosystem for Students) digital platform...",
     role: "Software Developer",
     duration: "July 2024 - Agustus 2024",
     skills: ["Java springboot", "Javascript Axml", "RESTful API", "MPASS"],
-    imageUrl: "/Portofolio/CFEST1.png",
+    imageUrl: "/Portofolio/CFEST1.PNG", // Changed from .png to .PNG
     link: "#",
     width: 121,
     height: 250,
   },
   {
     title: "KKP Management Dashboard - BNI Indonesia",
-    description:
-      "Dashboard untuk manajemen Kartu Kredit Pemerintah (KKP) yang menyediakan data real-time tentang pengguna KKP dan KKPD.",
+    description: "Dashboard untuk manajemen Kartu Kredit Pemerintah (KKP)...",
     role: "Software Developer",
     duration: "Oktober 2024",
     skills: ["Golang", "React.js", "Tailwind CSS", "RESTful API", "NodeJS"],
-    imageUrl: "/portofolio/bnikkp.png",
+    imageUrl: "/Portofolio/bnikkp.PNG", // Changed from /portofolio/ to /Portofolio/ and .png to .PNG
     link: "#",
     width: 375,
     height: 186,
@@ -113,7 +112,7 @@ export const portfolioData: PortfolioItem[] = [
       "MOMENTS JS",
       "Redux",
     ],
-    imageUrl: "/portofolio/audit1.png",
+    imageUrl: "/Portofolio/audit1.PNG", // Changed from /portofolio/ to /Portofolio/ and .png to .PNG
     link: "#",
     width: 375,
     height: 187,
@@ -125,7 +124,7 @@ export const portfolioData: PortfolioItem[] = [
     role: "Software Developer",
     duration: "MEI 2025",
     skills: ["PHP Native", "MYSQL", "Tailwind CSS", "Javascript"],
-    imageUrl: "/portofolio/spksekolah.png",
+    imageUrl: "/Portofolio/spksekolah.PNG", // Changed from /portofolio/ to /Portofolio/ and .png to .PNG
     link: "#",
     width: 375,
     height: 186,
@@ -136,7 +135,7 @@ export const portfolioData: PortfolioItem[] = [
     role: "Software Developer",
     duration: "MEI 2025",
     skills: ["PHP Native", "MYSQL", "Tailwind CSS", "Javascript"],
-    imageUrl: "/portofolio/spkskincare.png",
+    imageUrl: "/Portofolio/spkskincare.PNG", // Changed from /portofolio/ to /Portofolio/ and .png to .PNG
     link: "#",
     width: 375,
     height: 187,
@@ -147,7 +146,7 @@ export const portfolioData: PortfolioItem[] = [
     role: "Software Developer",
     duration: "MEI 2025",
     skills: ["PHP Native", "MYSQL", "Boostrap", "Javascript"],
-    imageUrl: "/portofolio/spkahp.png",
+    imageUrl: "/Portofolio/spkahp.PNG", // Changed from /portofolio/ to /Portofolio/ and .png to .PNG
     link: "#",
     width: 1920,
     height: 550,
@@ -158,7 +157,7 @@ export const portfolioData: PortfolioItem[] = [
     role: "Software Developer",
     duration: "Septem 2021",
     skills: ["REACT JS", "Tailwind CSS", "NODE JS", "Typescript"],
-    imageUrl: "/portofolio/topupgame.png",
+    imageUrl: "/Portofolio/topupgame.PNG", // Changed from /portofolio/ to /Portofolio/ and .png to .PNG
     link: "#",
     width: 350,
     height: 175,
@@ -169,7 +168,7 @@ export const portfolioData: PortfolioItem[] = [
     role: "Software Developer",
     duration: "Oktob 2021",
     skills: ["REACT JS", "Tailwind CSS", "NODE JS", "Typescript"],
-    imageUrl: "/portofolio/vegeta.png",
+    imageUrl: "/Portofolio/vegeta.PNG", // Changed from /portofolio/ to /Portofolio/ and .png to .PNG
     link: "#",
     width: 350,
     height: 172,
@@ -298,7 +297,7 @@ export const certificationsData: CertificationItem[] = [
     date: "January 08 2025",
     description:
       "Comprehensive certification covering modern web development technologies and practices.",
-    imageUrl: "/images/dicodingai.png",
+    imageUrl: "/images/dicodingai.PNG",
     credentialLink: "https://www.dicoding.com/certificates/MRZMNGYLLPYQ",
   },
   {
@@ -307,7 +306,7 @@ export const certificationsData: CertificationItem[] = [
     date: "January 06 2025",
     description:
       "In-depth course on advanced React patterns, hooks, and performance optimization.",
-    imageUrl: "/images/js1coding.png",
+    imageUrl: "/images/js1coding.PNG",
     credentialLink: "https://www.dicoding.com/certificates/81P2L18JJZOY",
   },
   {
@@ -316,7 +315,7 @@ export const certificationsData: CertificationItem[] = [
     date: "January 06 2025",
     description:
       "Introduction to cloud infrastructure, services, and deployment models.",
-    imageUrl: "/images/js2coding.png",
+    imageUrl: "/images/js2coding.PNG",
     credentialLink: "https://www.dicoding.com/certificates/NVP75G96OXR0",
   },
   {
@@ -325,7 +324,7 @@ export const certificationsData: CertificationItem[] = [
     date: "18 Oktober 2024",
     description:
       "Introduction to cloud infrastructure, services, and deployment models.",
-    imageUrl: "/images/js3coding.png",
+    imageUrl: "/images/js3coding.PNG",
     credentialLink: "https://www.dicoding.com/certificates/53XEQY94YXRN",
   },
   {
@@ -334,7 +333,7 @@ export const certificationsData: CertificationItem[] = [
     date: "Sept 2024",
     description:
       "Introduction to cloud infrastructure, services, and deployment models.",
-    imageUrl: "/images/js4coding.png",
+    imageUrl: "/images/js4coding.PNG",
     credentialLink: "https://www.sololearn.com/en/certificates/CC-KNUHVLIU",
   },
   {
@@ -343,7 +342,7 @@ export const certificationsData: CertificationItem[] = [
     date: "Juni 2024",
     description:
       "Introduction to cloud infrastructure, services, and deployment models.",
-    imageUrl: "/images/js5coding.png",
+    imageUrl: "/images/js5coding.PNG",
     credentialLink: "https://www.sololearn.com/en/certificates/CC-KNUHVLIU",
   },
   {
@@ -352,7 +351,7 @@ export const certificationsData: CertificationItem[] = [
     date: "December 31 2021",
     description:
       "Introduction to cloud infrastructure, services, and deployment models.",
-    imageUrl: "/images/js6coding.png",
+    imageUrl: "/images/js6coding.PNG",
     credentialLink:
       "https://www.freecodecamp.org/certification/muhammadirfansuherman/javascript-algorithms-and-data-structures",
   },
@@ -362,7 +361,7 @@ export const certificationsData: CertificationItem[] = [
     date: "May 10 2021",
     description:
       "Introduction to cloud infrastructure, services, and deployment models.",
-    imageUrl: "/images/js7coding.png",
+    imageUrl: "/images/js7coding.PNG",
     credentialLink:
       "https://www.freecodecamp.org/certification/muhammadirfansuherman/responsive-web-design",
   },

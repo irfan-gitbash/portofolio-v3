@@ -168,7 +168,7 @@ export const portfolioData: PortfolioItem[] = [
     role: "Software Developer",
     duration: "Juni 2025",
     skills: ["JAVA", "MYSQL", "Visual Studio Code"],
-    imageUrl: "/Portofolio/ahaskemang.png", // Changed from /portofolio/ to /Portofolio/ and .png to .PNG
+    imageUrl: "/Portofolio/ahaskemang.PNG", // Changed from /portofolio/ to /Portofolio/ and .png to .PNG
     link: "#",
     width: 1920,
     height: 550,
